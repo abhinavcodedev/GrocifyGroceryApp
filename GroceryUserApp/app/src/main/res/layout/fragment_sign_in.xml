@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".auth.SignInFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/LogInimg"
+                android:layout_width="@dimen/_320sdp"
+                android:layout_height="@dimen/_290sdp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/image_prod" />
+
+            <ImageView
+                android:id="@+id/LogInimgIcon"
+                android:layout_width="@dimen/_60ssp"
+                android:layout_height="@dimen/_49ssp"
+                android:layout_marginTop="@dimen/_15ssp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_grofers" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Login or Sign Up"
+                android:textStyle="bold"
+                android:textSize="@dimen/_18ssp"
+                android:layout_marginTop="@dimen/_17ssp"
+                android:layout_gravity="center"/>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/_24ssp"
+                android:layout_marginTop="@dimen/_12ssp"
+                app:boxCornerRadiusBottomStart="@dimen/_16ssp"
+                app:boxCornerRadiusBottomEnd="@dimen/_16ssp"
+                app:boxCornerRadiusTopStart="@dimen/_16ssp"
+                app:boxCornerRadiusTopEnd="@dimen/_16ssp"
+                app:endIconMode="clear_text">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/etUserNo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableStart="@drawable/phone_solid"
+                    android:drawablePadding="9.9dp"
+                    android:hint="Enter mobile number"
+                    android:inputType="number" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnContnue"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="7dp"
+                android:layout_marginHorizontal="@dimen/_25ssp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:backgroundTint="#EA9773"
+                android:text="Continue"
+                android:textColor="@color/white"
+                android:textAllCaps="false"
+                app:cornerRadius="@dimen/_16ssp"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
