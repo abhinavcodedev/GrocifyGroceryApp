@@ -83,5 +83,12 @@ Grocify is a native Android application that facilitates grocery shopping throug
 https://github.com/abhinavraj-code/GrocifyGroceryApp/assets/72371963/64c2b39b-903e-47b9-9340-95c3e20217cd
 
 
+ ## Questions?🤔
+ 
+ Hit me on
+ 
+<a href="https://twitter.com/Abhinav84319011"><img src="https://user-images.githubusercontent.com/35039342/55471524-8e24cb00-5627-11e9-9389-58f3d4419153.png" width="60"></a>
+<a href="https://www.linkedin.com/in/abhinavkumar18/"><img src="https://user-images.githubusercontent.com/35039342/55471530-94b34280-5627-11e9-8c0e-6fe86a8406d6.png" width="60"></a>
+
 ### Contributions are welcome! Please fork the repository and submit a pull request with your changes...
 
